@@ -1,0 +1,174 @@
+img {
+    width: 130px;
+    height: auto;
+    margin-top: 0px;
+}
+
+#main-header{
+    /* background: linear-gradient(to bottom right, rgb(254, 44, 44), rgb(136, 44, 44)); */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(41, 56, 65);
+    z-index: 9999;
+}
+
+.main-body{
+    margin-top: 50px;
+}
+
+.offcanvas-half {
+    width: 50%;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+  
+.search-container input[type="search"] {
+    margin-right: 10px;
+}
+  
+#add-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    transition: bottom 0.3s ease-in-out, right 0.3s ease-in-out;
+}
+  
+#add-button.bottom-right {
+    bottom: 10px;
+    right: 10px;
+}
+
+.custom-card {
+    width: 300px;
+    min-height: 500px;
+    max-height: 800px;
+    margin-bottom: 20px;
+}
+
+.custom-card .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.custom-card .card-body .row {
+    margin-top: 10px;
+}
+
+.inline-label {
+    display: inline-flex;
+    align-items: center;
+}
+
+.inline-label input {
+    margin-left: 10px; /* Adjust the desired spacing */
+}
+
+.inline-label p {
+    margin-left: 10px; /* Adjust the desired spacing */
+}
+
+.rectangular-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.inner-card {
+    flex: 0 0 auto;
+    height: 200px;
+    width: 200px; 
+    border: 1px solid #ccc;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10px;
+    
+}
+
+.inner-card:hover {
+    background-color:rgb(65, 76, 83); 
+}
+
+.button-content {
+    flex-grow: 1;
+}
+
+.product-image {
+    flex: 0 0 auto;
+    height: 60%; /* Adjust the desired height for the image */
+    object-fit: cover; /* Ensure the image covers the container */
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+
+.product-details {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+ 
+.input-container {
+    position: relative;
+}
+  
+#popup {
+    display: none;
+    position: absolute;
+    background-color: #ffcccc;
+    padding: 10px;
+    border: 1px solid #ff0000;
+    border-radius: 20px; /* Make it round to create a capsule effect */
+    top: 10px; /* Adjust the value to position the pop-up below the input */
+    left: 50%; /* Position the pop-up horizontally */
+    transform: translateX(-50%); /* Center the pop-up horizontally */
+}
+  
+.details-box {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid rgb(136, 44, 44);
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    margin: 10px 0;
+}
+
+strong {
+    font-weight: bold;
+    color: #555;
+}
+
+.introduction {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 2px solid #007bff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #007bff;
+}
+
+p {
+    font-size: 18px;
+    color: #555;
+}
