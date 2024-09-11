@@ -1,0 +1,7 @@
+Flask
+flask_sqlalchemy
+flask_cors
+Pillow
+bcrypt
+datetime
+matplotlib
